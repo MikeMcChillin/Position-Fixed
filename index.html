@@ -8,32 +8,45 @@ body { width: 100%;}
 
 header { position: fixed; top: 0; left: 0; width: 100%; z-index: 1; }
 
-.browser-height { height: 100%;}
-.main { position: relative; height: 1200px; background: #F72E2A; z-index: 3; margin:0; padding: 0; box-shadow: 0 0 3px #333; }
-
-.footer-wrap { background: purple url('http://25.media.tumblr.com/tumblr_m457hiwVq61qea3oqo1_1280.jpg') no-repeat fixed bottom center; background-size: 100%; position: relative; z-index: 2; width: 100%; height: 100%; }
+.browser-height { height: 67%;}
+.main { position: relative;  background: #f0f0f0; z-index: 3; margin:0; padding: 0; box-shadow: 0 0 10px 0 rgba(0, 0, 0, .7); }
+.footer-wrap { background: #fff; position: relative; z-index: 2; width: 100%; height: 260px;}
 
 
 /* Just for looks */
-h2 { font: bold 100px/120px "Open Sans", sans-serif; margin: 0 auto; padding: 0; text-transform: uppercase; color: #fff; text-align: center; letter-spacing: 2px;}
-p { font: normal 16px/30px Georgia, serif; color: #fff; text-align: center;}
+body { color: #111;}
+h2 { font: bold 30px/30px Helvetica, sans-serif; margin: 0 auto 10px auto; padding: 0; text-transform: uppercase; text-align: center; letter-spacing: 4px;}
+.inner { width: 600px; margin: 0 auto; padding-bottom: 40px;}
+p { font: normal 24px/38px Georgia, serif; margin-bottom: 20px;}
+footer { position: fixed; bottom: 0; left: 0; right: 0; margin: 0 auto; width: 600px; padding: 30px 0; }
+footer p { font-size: 18px; }
+footer img { height: 120px; border: 2px solid #ccc; display: inline; margin-right: 30px;}
 
 </style>
 </head>
 <body>
 <div id="container">
 	<header>
-		<img src="http://25.media.tumblr.com/tumblr_m2zuocj0YE1qbovnfo1_1280.jpg" width="100%" alt=""  />
+		<img src="food.jpg" width="100%" alt=""  />
 	</header>
 	<div class="browser-height"></div>
-	<div class="main" style="padding-top: 280px;">
-		<h2>Here is some text.</h2>
-		<p> There is more text here like so.</p>
+	<div class="main" style="padding-top: 90px;">
+		<h2>The very hungry caterpillar</h2>
+		<p style="text-align: center">By Eric Carle</p>
+		<hr style="border: 0; border-bottom: 3px solid #111; width: 30px; margin: 30px auto;">
+		<div class="inner">
+			<div class="article">
+			<p>Jean shorts squid DIY high life. Kale chips nesciunt velit, voluptate artisan swag est trust fund. Assumenda odd future terry richardson, quis marfa ethnic in craft beer +1 pickled biodiesel delectus aliqua yr vegan. Mlkshk gentrify cliche kogi, letterpress single-origin coffee cray salvia aliquip thundercats synth pickled artisan veniam semiotics. Narwhal scenester before they sold out, raw denim wayfarers chillwave excepteur id truffaut. Culpa artisan eiusmod, wolf vice swag seitan incididunt occupy qui direct trade typewriter lo-fi. Bespoke nesciunt typewriter wes anderson pitchfork, post-ironic non scenester cupidatat duis.</p>
+			<p>Cray anim excepteur proident brooklyn Austin vegan quinoa hella sustainable, esse dolor pour-over. Etsy ad assumenda anim, truffaut raw denim small batch minim art party marfa. Salvia qui fanny pack gluten-free selvage. Officia shoreditch nihil, biodiesel banh mi letterpress viral consectetur. Excepteur mustache seitan etsy tempor, pop-up selvage occupy placeat sriracha pariatur labore culpa. Aliqua keffiyeh et, nisi aesthetic gluten-free chillwave cred excepteur stumptown tofu cray post-ironic. Cray consequat gentrify, fanny pack raw denim craft beer umami 3 wolf moon banh mi american apparel eiusmod marfa.</p>
+			<p>Mustache tofu skateboard bespoke, echo park carles anim iphone. Accusamus semiotics dolore irure locavore, sint carles wes anderson lo-fi american apparel messenger bag. American apparel pop-up seitan Austin aliquip squid elit, consectetur esse placeat cosby sweater helvetica iphone veniam sartorial. Farm-to-table reprehenderit eiusmod assumenda cupidatat, wes anderson vegan dolor. Odd future seitan sint mlkshk ea. Lo-fi nihil helvetica, selvage freegan mcsweeney's dolor wayfarers ullamco raw denim. Truffaut kale chips cred culpa nisi.</p>
+			</div>
+		</div>
 	</div>
-	<div class="browserheight"></div>
 	<div class="footer-wrap">
 		<footer>
-			<h2 style="padding-top: 300px;">PEEKABOO</h2>
+			<p>Other books by Eric Carle:</p>
+			<img src="http://images.indiebound.com/441/017/9780805017441.jpg" alt="Brown Bear, Brown Bear, What do you See?" />
+			<img src="http://bks5.books.google.com/books?id=HR89PwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70QKsuh7G2iibMDsINn9DHfUNx9Imb7i57dmwwDyD4e0a-T92e9iPJLFk3jiOiGvl_I2p5aPtrDv3f-o2pEcC4F31bbOYNxy4wjskuASz5vMjeHrcy2PLuusL8u9O5S8uwPTWe5" alt="The Mixed-Up Chameleon" />
 		</footer>
 	</div>
 </div>
