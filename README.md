@@ -1,0 +1,1 @@
+This is a CSS trick to reveal content on page scroll.
